@@ -1,27 +1,26 @@
 package demo.project;
 
+import static org.junit.Assert.*;
+
 import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class SecondJunitTest {
+public class TestMainClass {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		
-		System.out.println("Execute before running test");
+		System.out.println("Executed test in main class");
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		System.out.println("Test case passed successfully");
-		System.out.println("Execute after running test");
+		System.out.println("Tear down the applicationin main java class");
 	}
 
 	@Test
 	public void test() {
 		
-	
 	}
 
 }
