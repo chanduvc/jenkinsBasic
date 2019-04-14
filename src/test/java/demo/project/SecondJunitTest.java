@@ -21,7 +21,7 @@ public class SecondJunitTest {
 	@Test
 	public void test() {
 		
-	
+	System.out.println("asserting the statements in the code");
 	}
 
 }
